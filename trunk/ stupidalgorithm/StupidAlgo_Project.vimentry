@@ -1,0 +1,45 @@
+-- auto-gen settings (DO NOT MODIFY) --
+
+CWD=E:/svn-box/时空优化分析集成平台/刘毅/PSO_Framework/Project/PSO/PSO
+Version=24
+VimEntryName=StupidAlgo_Project
+VimfilesDirName=.vimfiles.StupidAlgo_Project
+
+-- ex-plugins File Settings --
+
+LangType=auto
+Project=./.vimfiles.StupidAlgo_Project/project_tree.exproject
+FilenameList=./.vimfiles.StupidAlgo_Project/filenamelist
+Tag=./.vimfiles.StupidAlgo_Project/tags
+ID=./.vimfiles.StupidAlgo_Project/ID
+Symbol=./.vimfiles.StupidAlgo_Project/symbol
+Macro=./.vimfiles.StupidAlgo_Project/macro
+Cscope=./.vimfiles.StupidAlgo_Project/cscope.out
+Inherits=./.vimfiles.StupidAlgo_Project/inherits
+Bookmarks=./.vimfiles.StupidAlgo_Project/bookmarks
+
+vimentryRefs+=
+
+-- ex-plugins Behavior Settings --
+
+RestoreBuffers=false
+AskForRestoration=true
+RestoreInfo=./.vimfiles.StupidAlgo_Project/restore_info
+
+-- LookupFile Settings --
+
+LookupFileTag=./.vimfiles.StupidAlgo_Project/filenametags
+
+-- Visual Studio Settings --
+
+vsTaskList=./.vimfiles.StupidAlgo_Project/vs_task_list
+vsOutput=./.vimfiles.StupidAlgo_Project/vs_output
+vsFindResult1=./.vimfiles.StupidAlgo_Project/vs_find_results_1
+vsFindResult2=./.vimfiles.StupidAlgo_Project/vs_find_results_2
+
+-- vimwiki Settings --
+
+wikiHome=./wiki
+wikiHomeHtml=./wiki/html
+wikiHtmlHeader=./wiki/template/header.tpl
+
