@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+#labels Phase-Deploy
+
+= Introduction =
+
+Algorithm Range-Parameter File Setting Syntax
+
+
+= Details =
+
+ # sequential values start,same syntax with Matlab
+ # range value -> [min:step:max]
+ # group value -> (value1,value2,...,valueN)
+ # example
+ # # my sde SPECIFIC,learning period(F_mean,F_sigma update frequency)
+learn_p = (1,25,50,100,250)
