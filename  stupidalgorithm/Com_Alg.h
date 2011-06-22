@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_PSO_ALG_BASE
-#define JERRYLIU_PSO_ALG_BASE
+#ifndef STUPIDALGO_PSO_ALG_BASE
+#define STUPIDALGO_PSO_ALG_BASE
 
 #include <fstream>
 #include <boost/shared_ptr.hpp>

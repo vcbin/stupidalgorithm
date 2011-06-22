@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_PSO_ALG_INTERFACE
-#define JERRYLIU_PSO_ALG_INTERFACE
+#ifndef STUPIDALGO_PSO_ALG_INTERFACE
+#define STUPIDALGO_PSO_ALG_INTERFACE
 
 #include <boost/shared_ptr.hpp>
 #include <boost/thread/mutex.hpp>

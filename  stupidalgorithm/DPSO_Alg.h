@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_DPSO_ALGORITHM
-#define JERRYLIU_DPSO_ALGORITHM
+#ifndef STUPIDALGO_DPSO_ALGORITHM
+#define STUPIDALGO_DPSO_ALGORITHM
 
 #include "PSO_Alg.h"
 #include "Algo_DataStruct.h"

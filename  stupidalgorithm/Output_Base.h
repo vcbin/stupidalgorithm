@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_PSO_OUTPUT_INTERFACE
-#define JERRYLIU_PSO_OUTPUT_INTERFACE
+#ifndef STUPIDALGO_PSO_OUTPUT_INTERFACE
+#define STUPIDALGO_PSO_OUTPUT_INTERFACE
 
 #include <iostream>
 #include <boost/shared_ptr.hpp>

@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_MOP_PUBLIC_INTERFACE
-#define JERRYLIU_MOP_PUBLIC_INTERFACE
+#ifndef STUPIDALGO_MOP_PUBLIC_INTERFACE
+#define STUPIDALGO_MOP_PUBLIC_INTERFACE
 
 #include "Algo_DataStruct.h"
 //#include "plot.h"
@@ -27,7 +27,7 @@ namespace mop
 
 	typedef void (*pplot_fun)(boost::shared_ptr<boost::mutex> pmut,int gen_idx,int arc_size,
 		int stag_gen,bool max_plot_gen,std::string cmd_file);
-	void plot_fun(boost::shared_ptr<boost::mutex> pmut,int gen_idx,int arc_size,
+	void fwd_plot_fun(boost::shared_ptr<boost::mutex> pmut,int gen_idx,int arc_size,
 		int stag_gen,bool max_plot_gen,std::string cmd_file);
 
 	class front_pred:public std::unary_function<individual,bool>

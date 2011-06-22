@@ -37,7 +37,7 @@ extern boost::mt19937 gen;
 
 namespace mop
 {
-	void plot_fun(shared_ptr<boost::mutex> pmut,int gen_idx,int arc_size,
+	void fwd_plot_fun(shared_ptr<boost::mutex> pmut,int gen_idx,int arc_size,
 		int stag_gen,bool max_plot_gen,string cmd_file)
 	{
 		lock_guard<boost::mutex> lock(*pmut);
@@ -48,7 +48,7 @@ namespace mop
 			+";"+"max_gen="+lexical_cast<string>(max_plot_gen)+"\""
 			+" "+cmd_file;
 		system(gp_cmd.c_str());
-	}// end function plot_fun
+	}// end function fwd_plot_fun
 
 	bool front_pred::operator()(individual &ind) { return ind.rank==1; }
 

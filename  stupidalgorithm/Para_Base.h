@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_BASE_ALL_PARAMETERS
-#define JERRYLIU_BASE_ALL_PARAMETERS
+#ifndef STUPIDALGO_BASE_ALL_PARAMETERS
+#define STUPIDALGO_BASE_ALL_PARAMETERS
 
 #include <boost/program_options/options_description.hpp>
 #include <boost/program_options/parsers.hpp>

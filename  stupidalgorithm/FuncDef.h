@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_FUNC_DEFS
-#define JERRYLIU_FUNC_DEFS
+#ifndef STUPIDALGO_FUNC_DEFS
+#define STUPIDALGO_FUNC_DEFS
 
 #include <functional>
 #include <boost/array.hpp>

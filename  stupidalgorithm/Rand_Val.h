@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_BOOST_RAND_NUMBER_GENERATOR_HEADER
-#define JERRYLIU_BOOST_RAND_NUMBER_GENERATOR_HEADER
+#ifndef STUPIDALGO_BOOST_RAND_NUMBER_GENERATOR_HEADER
+#define STUPIDALGO_BOOST_RAND_NUMBER_GENERATOR_HEADER
 
 // boost random floating-point uniform [0,1) distribution header
 #include <boost/random/mersenne_twister.hpp>

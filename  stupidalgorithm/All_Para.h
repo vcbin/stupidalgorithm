@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_ALL_ALGO_CONF
-#define JERRYLIU_ALL_ALGO_CONF
+#ifndef STUPIDALGO_ALL_ALGO_CONF
+#define STUPIDALGO_ALL_ALGO_CONF
 
 #include "pso_para.h"
 #include "de_para.h"

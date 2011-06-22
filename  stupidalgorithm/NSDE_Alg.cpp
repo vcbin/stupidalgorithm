@@ -102,7 +102,7 @@ namespace de
 			ofstream out_file(m_gen_avg_bi_norm_stat_path);
 			for ( i=0;i<max_check;i++ )
 			{
-				out_file<<"\n"<<m_avg_bi_norm_var[i].gen<<"\t"<<m_avg_bi_norm_var[i].var;
+				out_file<<"\n"<<m_avg_bi_norm_var[i].gen+1<<"\t"<<m_avg_bi_norm_var[i].var;
 			}
 		}// end function write_stat_vals
 

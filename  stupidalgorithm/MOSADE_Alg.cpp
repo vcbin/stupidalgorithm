@@ -342,7 +342,7 @@ namespace de
 						output_collection(*ppop_file,ext_archive.begin(),ext_archive.end());
 						ppop_file->flush();
 						if ( plot )
-							thread(plot_fun,ppop_mut,m_cur_gen,
+							thread(fwd_plot_fun,ppop_mut,m_cur_gen,
 							ext_archive.size(),
 							stag_gen,is_final_out_gen(m_cur_gen,out_interval,min_gen),
 							plot_script);
