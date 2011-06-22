@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_FEP_ALL_PARAMETERS
-#define JERRYLIU_FEP_ALL_PARAMETERS
+#ifndef STUPIDALGO_FEP_ALL_PARAMETERS
+#define STUPIDALGO_FEP_ALL_PARAMETERS
 
 #include <fstream>
 #include <iostream>

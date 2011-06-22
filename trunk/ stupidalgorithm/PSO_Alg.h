@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_PSO_STD_ALGORITHM
-#define JERRYLIU_PSO_STD_ALGORITHM
+#ifndef STUPIDALGO_PSO_STD_ALGORITHM
+#define STUPIDALGO_PSO_STD_ALGORITHM
 
 // #include <list>
 #include <boost/progress.hpp>

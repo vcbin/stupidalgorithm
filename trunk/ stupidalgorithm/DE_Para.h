@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_DE_ALL_PARAMETERS
-#define JERRYLIU_DE_ALL_PARAMETERS
+#ifndef STUPIDALGO_DE_ALL_PARAMETERS
+#define STUPIDALGO_DE_ALL_PARAMETERS
 
 #include <fstream>
 #include <iostream>

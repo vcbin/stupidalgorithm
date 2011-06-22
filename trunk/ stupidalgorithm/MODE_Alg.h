@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_MOP_MODE
-#define JERRYLIU_MOP_MODE
+#ifndef STUPIDALGO_MOP_MODE
+#define STUPIDALGO_MOP_MODE
 
 #include "DE_Alg.h"
 #include "MOP_Common.h"

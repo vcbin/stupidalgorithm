@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_INITIALIZER
-#define JERRYLIU_INITIALIZER
+#ifndef STUPIDALGO_INITIALIZER
+#define STUPIDALGO_INITIALIZER
 
 #include "Rand_Val.h"
 #include "Algo_DataStruct.h"

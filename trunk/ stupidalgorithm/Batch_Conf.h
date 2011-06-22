@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_BATCH_CONF_CLASS
-#define JERRYLIU_BATCH_CONF_CLASS
+#ifndef STUPIDALGO_BATCH_CONF_CLASS
+#define STUPIDALGO_BATCH_CONF_CLASS
 
 #include <string>
 #include <vector>

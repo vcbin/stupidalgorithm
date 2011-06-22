@@ -302,7 +302,7 @@ namespace de
 						output_if(*ppop_file,pop.begin(),pop.end(),front_pred());
 						ppop_file->flush();
 						if ( plot )
-							thread(plot_fun,ppop_mut,m_cur_gen,
+							thread(fwd_plot_fun,ppop_mut,m_cur_gen,
 							0,
 							0,is_final_out_gen(m_cur_gen,out_interval,min_gen),
 							plot_script);

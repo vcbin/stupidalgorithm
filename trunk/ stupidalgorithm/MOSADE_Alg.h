@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_MOP_MOSADE
-#define JERRYLIU_MOP_MOSADE
+#ifndef STUPIDALGO_MOP_MOSADE
+#define STUPIDALGO_MOP_MOSADE
 
 #include "DE_Alg.h"
 #include "MOP_Common.h"

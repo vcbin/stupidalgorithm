@@ -1,5 +1,5 @@
-#ifndef JERRYLIU_COMMON_DATASTRUCT
-#define JERRYLIU_COMMON_DATASTRUCT
+#ifndef STUPIDALGO_COMMON_DATASTRUCT
+#define STUPIDALGO_COMMON_DATASTRUCT
 
 // #include <boost/multi_array.hpp>
 #include <vector>
