@@ -1,9 +1,8 @@
-#summary One-sentence summary of this page.
+#summary Syntax of Algorithm Range-Parameter File
 #labels Phase-Deploy
-
 = Introduction =
 
-Algorithm Range-Parameter File Setting Syntax
+Algorithm Range-Parameter File Value-Setting Syntax
 
 
 = Details =
