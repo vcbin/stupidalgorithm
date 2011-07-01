@@ -85,8 +85,8 @@ int main(int argc, char *argv[])
 
 		progress_timer total_timer;
 		{
-			scheduler scheduler(batch_conf_path);
-			scheduler.batch_run(max_thread);
+			scheduler sch(batch_conf_path);
+			sch.batch_run(max_thread);
 			cout<<"total time:"<<" ";
 		}
 
