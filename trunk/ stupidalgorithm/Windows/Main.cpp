@@ -96,6 +96,8 @@ int main(int argc, char *argv[])
 		cout << e.what() << "\n";
 		return EXIT_FAILURE;
 	}
-	system("PAUSE");
+#ifdef WIN32
+	system("PAUSE");// pause command only works on windows OS
+#endif
 	return 0;
 }
