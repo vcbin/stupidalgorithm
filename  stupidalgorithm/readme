@@ -1,0 +1,10 @@
+testing configuration:
+	Linux:Ubuntu 11.04+Eclipse CDT 8.0+boost 1.44+threadpool 0.2.5
+	Windows:Win7+Visual Studio 2010 SP1+boost 1.44+threadpool 0.2.5
+boost 1.44 download and install guide:
+	http://www.boost.org/users/history/version_1_44_0.html
+threadpool 0.2.5:
+	http://threadpool.sourceforge.net/
+
+usage:
+	stupidalgorithm --help
