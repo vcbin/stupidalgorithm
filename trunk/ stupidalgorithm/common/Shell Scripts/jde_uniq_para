@@ -1,0 +1,7 @@
+f_lower_bound = 0.1
+
+f_upper_bound = 0.9
+
+tau_1 = 0.1
+
+tau_2 = 0.1

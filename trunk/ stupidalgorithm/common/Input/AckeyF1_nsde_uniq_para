@@ -1,0 +1,13 @@
+# control parameter F initialization type
+# 1 -> uniform initialization
+# 2 -> normal distribution initialization
+ini_f_type = 1
+
+# mean of control parameter F(scaling factor) initial value normal distribution
+ini_f_mean = 0.5
+
+# sigma of control parameter F(scaling factor ) initial value normal distribution
+ini_f_sigma = 0.15
+
+# learning interval,unit:generation
+learn_p = 100

@@ -1,0 +1,100 @@
+file filter = c,C,c++,cc,cp,cpp,cxx,h,H,h++,hh,hp,hpp,hxx,inl,ipp,cs,java,hlsl,vsh,psh,fx,fxh,cg,shd,glsl,py,pyw,pyx,pxd,vim,uc,m,wiki,ini,cfg,mak,mk,Makefile,makefile,sh,SH,bsh,bash,ksh,zsh,bat,log,err,exe,qrc,pro,pri,i,swg,
+dir filter = 
+
+-[F]PSO {
+ |-[F]Debug {
+ | |-[l]PSO.log
+ | |-[l]StupidAlgo.Build.CppClean.log }
+ |
+ |-[F]Obsoleted Src {
+ | |-[h]accumulator.h
+ | |-[c]Alg_Base.cpp
+ | |-[c]CmdLine_Para_Type.cpp
+ | |-[c]cmdline_parser.cpp
+ | |-[h]cmdline_parser.h
+ | |-[c]MPSO_Para.cpp
+ | |-[h]MPSO_Para.h
+ | |-[m]plot_lognpdf.m
+ | |-[c]PSO_Output_Interface.cpp
+ | |-[h]PSO_Output_Interface.h
+ | |-[c]PSO_Para.cpp
+ | |-[h]PSO_Para.h
+ | |-[h]resource.h
+ | |-[h]StopCond_Base.h }
+ |
+ |-[F]Shell Scripts {
+ | |-[s]batch_mv.sh
+ | |-[s]chang_to_50dim.sh
+ | |-[s]gen_para_files.sh
+ | |-[s]restore_low_dim_fun_to_low_eval_num.sh }
+ |
+ |-[h]Alg_Base.h
+ |-[c]Alg_DataStruct.cpp
+ |-[h]Alg_Interface.h
+ |-[h]Algo_DataStruct.h
+ |-[h]All_Alg.h
+ |-[h]All_Paras.h
+ |-[c]Alloc_Obj.cpp
+ |-[h]Alloc_Obj.h
+ |-[c]ARPSO_Alg.cpp
+ |-[h]ARPSO_Alg.h
+ |-[c]Batch_Conf.cpp
+ |-[h]Batch_Conf.h
+ |-[c]BBDE_Alg.cpp
+ |-[h]BBDE_Alg.h
+ |-[c]Boundary Handler.cpp
+ |-[h]Boundary Handler.h
+ |-[h]Cmdline_Para_Type.h
+ |-[c]DE_Alg.cpp
+ |-[h]DE_Alg.h
+ |-[c]DE_Paras.cpp
+ |-[h]DE_Paras.h
+ |-[c]DPSO_Alg.cpp
+ |-[h]DPSO_Alg.h
+ |-[c]DPSO_M_Alg.cpp
+ |-[h]DPSO_M_Alg.h
+ |-[c]EP_Paras.cpp
+ |-[h]EP_Paras.h
+ |-[c]FEP_Alg.cpp
+ |-[h]FEP_Alg.h
+ |-[c]FuncDef.cpp
+ |-[h]FuncDef.h
+ |-[c]GA_Alg.cpp
+ |-[h]GA_Alg.h
+ |-[c]GA_Paras.cpp
+ |-[h]GA_Paras.h
+ |-[c]IFEP_Alg.cpp
+ |-[h]IFEP_Alg.h
+ |-[c]IFEP_Paras.cpp
+ |-[h]IFEP_Paras.h
+ |-[c]Initializer.cpp
+ |-[h]Initializer.h
+ |-[c]JDE.cpp
+ |-[h]JDE.h
+ |-[c]Main.cpp
+ |-[c]MPSO_Alg.cpp
+ |-[h]MPSO_Alg.h
+ |-[c]MY_SDE_Alg.cpp
+ |-[h]MY_SDE_Alg.h
+ |-[c]Output_Interface.cpp
+ |-[h]Output_Interface.h
+ |-[c]Para_Base.cpp
+ |-[h]Para_Base.h
+ |-[c]Problem_Interface.cpp
+ |-[h]Problem_Interface.h
+ |-[c]PSO_Alg.cpp
+ |-[h]PSO_Alg.h
+ |-[c]PSO_Paras.cpp
+ |-[h]PSO_Paras.h
+ |-[c]PSOBC_Alg.cpp
+ |-[h]PSOBC_Alg.h
+ |-[b]quick_gen_project_StupidAlgo_Project_autogen.bat
+ |-[h]Rand_Val.h
+ |-[c]Scheduler.cpp
+ |-[h]Scheduler.h
+ |-[c]SDE_Alg.cpp
+ |-[h]SDE_Alg.h
+ |-[c]SPDE_Alg.cpp
+ |-[h]SPDE_Alg.h }
+
+

@@ -1,0 +1,11 @@
+# mean of crossover probability normal distribution
+pr_mean = 0.5
+
+# sigma of crossover probability normal distribution
+pr_sigma = 0.3
+
+# mean of control parameter F(scaling factor) normal distribution
+f_mean = 0.7
+
+# sigma of control parameter F(scaling factor ) normal distribution
+f_sigma = 0.3

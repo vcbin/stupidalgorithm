@@ -1,0 +1,76 @@
+# specific Objective Function/test problem
+# 	1 -> sphere function
+# 	2 -> griewank function
+#	  3 -> rastrigin function
+#	  4 -> ackeyf1 function
+# 	5 -> f5 function
+# 	6 -> rosenbrock function
+# 	7 -> step function
+# 	8 -> quartic function with noise
+func_type = 23
+
+# run/trial number
+run = 1
+
+# population size
+pop_size = 50
+
+# stop criterion type
+# 1 -> stop on max GENERATION number
+# 2 -> stop on max EVALUATION number
+# 3 -> stop on max STAGNATION number
+# 4 -> stop on specified delta_y(best_so_far-optimum)
+stop_type = 2
+
+# stop criterion related value:
+# stop criterion type = 1 -> max GENERATION number
+# stop criterion type = 2 -> max EVALUATION number
+# stop criterion type = 3 -> max STAGNATION number
+# stop criterion type = 4 -> delta_y <= stop_threshold
+stop_threshold = 25000
+
+# number of objective
+num_obj = 2
+
+# number of real variable/ dimensionality of test problem
+dimension = 30
+
+# lower bound of ALL variables
+val_lower_bound = 0.0
+
+# upper bound of ALL variables
+val_upper_bound = 1.0
+
+ini_type = 4
+
+# initialization lower bound of ALL variables
+ini_lower_bound = 0.0
+
+# initialization upper bound of ALL variables
+ini_upper_bound = 1.0
+
+q_number = 10
+
+# output interval,periodic
+out_interval = 20
+
+# maximum external archive size
+max_archive = 100
+
+# fixed amplification factor f value
+f_val = 0.3
+
+# fixed crossover rate value
+pr_val = 0.3
+
+# truncation type
+# 1 -> crowding distance by Deb
+# 2 -> crowding entropy
+# 3 -> average harmonic crowding distance
+trunc_type = 1
+
+# plotting flag
+plot = true
+
+# gnuplot plotting script path
+plot_script = "plot_all_point_2d.p"
