@@ -1,0 +1,9 @@
+uni-modal:
+	Sphere,Rosenbrock
+	
+multi-modal:
+	Rastrigin,AckeyF1,Griewank(essentially UNImodal when the dimensionality exceeds 10-15):diffcult multi-modal functions where the number of local optima increases exponentially with the problem dimension
+	F5(only 2 dimension)
+	
+discontinuous:
+	Step
