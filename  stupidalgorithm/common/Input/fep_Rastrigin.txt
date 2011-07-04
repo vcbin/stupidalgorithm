@@ -1,0 +1,53 @@
+# specific Objective Function/test problem
+# 	1 -> sphere function
+# 	2 -> griewank function
+#	  3 -> rastrigin function
+#	  4 -> ackeyf1 function
+# 	5 -> f5 function
+# 	6 -> rosenbrock function
+# 	7 -> step function
+# 	8 -> quartic function with noise
+func_type = 3
+
+# run/trial number
+run = 20
+
+# population size
+pop_size = 20
+
+# stop criterion type
+# 1 -> stop on max GENERATION number
+# 2 -> stop on max EVALUATION number
+# 3 -> stop on max STAGNATION number
+# 4 -> stop on specified delta_y(best_so_far-optimum)
+stop_type = 2
+
+# stop criterion related value:
+# stop criterion type = 1 -> max GENERATION number
+# stop criterion type = 2 -> max EVALUATION number
+# stop criterion type = 3 -> max STAGNATION number
+# stop criterion type = 4 -> delta_y <= stop_threshold
+stop_threshold = 100000
+
+# number of real variable/ dimensionality of test problem
+dimension = 20
+
+# lower bound of ALL variables
+val_lower_bound = -100.0
+
+# upper bound of ALL variables
+val_upper_bound = 100.0
+
+# initialization lower bound of ALL variables
+ini_lower_bound = 50.0
+
+# initialization upper bound of ALL variables
+ini_upper_bound = 100.0
+
+# tournament size of tournament selection
+tour_size = 10
+
+# random number type of mean step size randomization
+# 1 -> standard cauchy distribution
+# 2 -> standard gaussian distribution
+mut_type = 1

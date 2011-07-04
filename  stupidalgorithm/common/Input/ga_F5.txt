@@ -1,0 +1,67 @@
+# specific Objective Function/test problem
+#		1 -> sphere function
+# 	2 -> griewank function
+#	  3 -> rastrigin function
+#	  4 -> ackeyf1 function
+# 	5 -> f5 function
+# 	6 -> rosenbrock function
+# 	7 -> step function
+# 	8 -> quartic function with noise
+#		9 -> wireless sensor location problem
+func_type = 5
+
+# run/trial number
+run = 20
+
+# population size
+pop_size = 20
+
+# stop criterion type
+# 1 -> stop on max GENERATION number
+# 2 -> stop on max EVALUATION number
+# 3 -> stop on max STAGNATION number
+# 4 -> stop on specified delta_y(best_so_far-optimum)
+stop_type = 2
+
+# stop criterion related value:
+# stop criterion type = 1 -> max GENERATION number
+# stop criterion type = 2 -> max EVALUATION number
+# stop criterion type = 3 -> max STAGNATION number
+# stop criterion type = 4 -> delta_y <= stop_threshold
+stop_threshold = 10000
+
+# initialization type
+# 1 -> random initialization according to entry value [ini_lower_bound,ini_upper_bound]
+# 2 -> read initial value ranges from file
+# 3 -> read initial population from file
+ini_type = 1
+
+# initialization population file path
+# will IGNORED if ini_type = 1,2 (random initialization)
+ini_pop_file = ""
+
+# number of real variable/ dimensionality of test problem
+dimension = 2
+
+# feasible lower bound of ALL variables
+# will IGNORED if ini_range_file entry is specified
+val_lower_bound = -100.0
+
+# feasible upper bound of ALL variables
+# will IGNORED if ini_range_file entry is specified
+val_upper_bound = 100.0
+
+# initialization lower bound of ALL variables
+# will IGNORED if ini_range_file entry is specified
+ini_lower_bound = 50.0
+
+# initialization upper bound of ALL variables
+# will IGNORED if ini_range_file entry is specified
+ini_upper_bound = 100.0
+
+# ga parameters
+# crossvoer probability 
+pr = 0.9
+
+#  mutation probability
+pm = 0.75

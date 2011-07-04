@@ -1,0 +1,66 @@
+# specific Objective Function/test problem
+# 	1 -> sphere function
+# 	2 -> griewank function
+#	  3 -> rastrigin function
+#	  4 -> ackeyf1 function
+# 	5 -> f5 function
+# 	6 -> rosenbrock function
+# 	7 -> step function
+# 	8 -> quartic function with noise
+#		9 -> wireless sensor location problem
+func_type = 7
+
+# run/trial number
+run = 20
+
+# population size
+pop_size = 20
+
+# stop criterion type
+# 1 -> stop on max GENERATION number
+# 2 -> stop on max EVALUATION number
+# 3 -> stop on max STAGNATION number
+# 4 -> stop on specified delta_y(best_so_far-optimum)
+stop_type = 2
+
+# stop criterion related value:
+# stop criterion type = 1 -> max GENERATION number
+# stop criterion type = 2 -> max EVALUATION number
+# stop criterion type = 3 -> max STAGNATION number
+# stop criterion type = 4 -> delta_y <= stop_threshold
+stop_threshold = 20000
+
+# number of real variable/ dimensionality of test problem
+dimension = 30
+
+# lower bound of ALL variables
+val_lower_bound = -100.0
+
+# upper bound of ALL variables
+val_upper_bound = 100.0
+
+# initialization lower bound of ALL variables
+ini_lower_bound = 50.0
+
+# initialization upper bound of ALL variables
+ini_upper_bound = 100.0
+
+# mean of crossover probability normal distribution
+pr_mean = 0.5
+
+# sigma of crossover probability normal distribution
+pr_sigma = 0.15
+
+# sde SPECIFIC,mean of control parameter F(initial value) normal distribution
+ini_f_mean = 0.7
+
+# sde SPECIFIC,sigma of control parameter F(initial value) normal distribution
+ini_f_sigma = 0.3
+
+# my sde SPECIFIC,learning period(F_mean,F_sigma update frequency)
+learn_p = 500
+
+# my sde SPECIFIC,control parameter F granularity
+# 0 -> f per individual
+# 1 -> f per dimension
+f_per_dim = 0

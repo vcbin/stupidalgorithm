@@ -1,0 +1,70 @@
+# specific Objective Function/test problem
+# 	1 -> sphere function
+# 	2 -> griewank function
+#	  3 -> rastrigin function
+#	  4 -> ackeyf1 function
+# 	5 -> f5 function
+# 	6 -> rosenbrock function
+func_type = 4
+
+# run/trial number
+run = 10
+
+# population size
+pop_size = 20
+
+# stop criterion type
+# 1 -> stop on max GENERATION number
+# 2 -> stop on max EVALUATION number
+# 3 -> stop on max STAGNATION number
+# 4 -> stop on specified delta_y(best_so_far-optimum)
+stop_type = 2
+
+# stop criterion related value:
+# stop criterion type = 1 -> max GENERATION number
+# stop criterion type = 2 -> max EVALUATION number
+# stop criterion type = 3 -> max STAGNATION number
+# stop criterion type = 4 -> delta_y <= stop_threshold
+stop_threshold = 200000
+
+# number of real variable/ dimensionality of test problem
+dimension = 30
+
+# lower bound of ALL variables
+val_lower_bound = -36.0
+
+# upper bound of ALL variables
+val_upper_bound = 36.0
+
+# initialization lower bound of ALL variables
+ini_lower_bound = 18.0
+
+# initialization upper bound of ALL variables
+ini_upper_bound = 36.0
+
+# V_max type:
+#		1:dynamic range
+#		2:static range
+Vmax_type = 1
+
+# V_max value:
+#		(0,1]:V_max coefficient(ratio of static range)
+Vmax_cof = 1.0
+
+# Boundary Condition type:
+#		1:Reflecting
+#		2:Absorbing
+#		3:Damping
+ob_type = 1
+
+# omega_max
+omega_max = 1.0
+
+# omega_min
+omega_min = 0.0
+
+# CR1
+cr1 = 2.0
+
+# CR2
+cr2 = 2.0

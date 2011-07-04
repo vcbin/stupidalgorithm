@@ -1,0 +1,253 @@
+# batch run configuration file   
+#
+# format:
+# algorithm_code config_file_path
+# algorithm_code:
+#  1: standard PSO algorithm
+#  2: mPSO algorithm
+#  3: arPSO algorithm
+#  4: dPSO algorithm
+#  5: my dPSO algorithm
+#  6£ºPSObc algorithm
+#	 7£ºbasic DE algorithm
+#  8£ºbarebones DE algorithm
+#  9£ºself-adaptive DE algorithm
+#  10£ºmy self-adaptive DE algorithm
+#  11£ºself-adaptive pareto DE algorithm
+#  12: self-adaptive jDE algorithm
+#  13£ºFast Evolutionary Programming algorithm
+#  14: Improved Fast Evolutionary Programming algorithm
+#  15: diversity guided Evolutionary Algorithm
+
+
+# '-' means same config_file_path with previous item
+
+#1	Input\pso_F5_seq_val.txt
+#2	Input\F5.txt
+#3 Input\arpso_F5_no_seq_val.txt
+#4 Input\pso_F5_seq_val.txt
+#5 Input\F5.txt
+#6 Input\F5.txt    
+
+#8	Input\de_F5_no_seq_val.txt
+#9	Input\sde_F5_seq_val.txt
+#10 Input\my_sde_F5_no_seq_val.txt
+#11 Input\my_sde_F5_no_seq_val.txt
+
+#
+#13	Input\fep_F5_seq_val.txt
+#14	Input\ifep_F5.txt
+
+#15 Input\ga_F5.txt
+
+#1	Input\F9.txt
+#2	Input\F9.txt
+#3	Input\F9.txt
+#4	Input\F9.txt
+#5	Input\F9.txt
+#6	Input\F5.txt    
+
+#8	Input\de_F9.txt
+#9	Input\sde_F9.txt
+#
+#13	Input\fep_F9.txt
+#14	Input\ifep_F9.txt
+
+#1 Input\pso_Rastrigin_no_seq_val.txt
+#3 Input\pso_Rastrigin_no_seq_val.txt
+
+#8 Input\de_Rastrigin_no_seq_val.txt
+#9 Input\sde_Rastrigin_no_seq_val.txt
+#10 Input\my_sde_Rastrigin_no_seq_val.txt
+#11 Input\sde_Rastrigin_no_seq_val.txt
+
+#13	Input\fep_Rastrigin.txt
+#14	Input\ifep_Rastrigin.txt
+#
+#1 Input\pso_Rosenbrock_no_seq_val.txt
+#3 Input\pso_Rosenbrock_no_seq_val.txt
+
+#7	Input\bde_Rosenbrock_AP.txt
+#8	Input\de_Rosenbrock_no_seq_val.txt
+#9	Input\sde_Rosenbrock_AP.txt
+#10	Input\my_sde_Rosenbrock_paper_no_seq_val.txt
+#11	Input\spde_Rosenbrock_AP.txt
+
+#13	Input\fep_Rosenbrock.txt
+#14	Input\ifep_Rosenbrock.txt 
+
+#1 Input\pso_AckeyF1_no_seq_val.txt
+
+#8	Input\bbde_AckeyF1_paper.txt
+#9	Input\sde_AckeyF1_paper.txt
+#10	Input\my_sde_AckeyF1_paper_no_seq_val.txt
+#11	Input\spde_AckeyF1_paper.txt
+#12 Input\jde_AckeyF1_paper.txt
+
+#7	Input\bde_Griewank_paper.txt
+#8	Input\de_Griewank_no_seq_val.txt
+#9	Input\sde_Griewank_no_seq_val.txt
+#10	Input\my_sde_Griewank_paper.txt
+#11	Input\de_Griewank_no_seq_val.txt           
+
+#8	Input\de_Step_no_seq_val.txt       
+#9	Input\sde_Step_no_seq_val.txt      
+#10	Input\my_sde_Step_no_seq_val.txt
+#11	Input\de_Step_no_seq_val.txt  
+
+
+## AP experiments
+#7	Input\bde_Sphere_AP.txt
+#8	Input\bbde_Sphere_AP.txt
+#9	Input\sde_Sphere_AP.txt
+#10	Input\my_sde_Sphere_AP.txt
+#11	Input\spde_Sphere_AP.txt
+#12 Input\jde_Sphere_AP.txt
+#
+#
+#7 Input\bde_F2_AP.txt
+#8 Input\bbde_F2_AP.txt
+#9 Input\sde_F2_AP.txt
+#10 Input\my_sde_F2_AP.txt
+#11 Input\spde_F2_AP.txt
+#12 Input\jde_F2_AP.txt
+#
+#7 Input\bde_F3_AP.txt
+#8 Input\bbde_F3_AP.txt
+#9 Input\sde_F3_AP.txt
+#10 Input\my_sde_F3_AP.txt
+#11 Input\spde_F3_AP.txt
+#12 Input\jde_F3_AP.txt
+#
+#7 Input\bde_F4_AP.txt
+#8 Input\bbde_F4_AP.txt
+#9 Input\sde_F4_AP.txt
+#10 Input\my_sde_F4_AP.txt
+#11 Input\spde_F4_AP.txt
+#12 Input\jde_F4_AP.txt
+#
+#7	Input\bde_Step_AP.txt
+#8	Input\bbde_Step_AP.txt
+#9	Input\sde_Step_AP.txt
+#10	Input\my_sde_Step_AP.txt
+#11	Input\spde_Step_AP.txt
+#12 Input\jde_Step_AP.txt
+#
+#
+#7	Input\bde_Rosenbrock_AP.txt
+#8	Input\bbde_Rosenbrock_AP.txt
+#9	Input\sde_Rosenbrock_AP.txt
+#10	Input\my_sde_Rosenbrock_AP.txt
+#11	Input\spde_Rosenbrock_AP.txt
+#12 Input\jde_Rosenbrock_AP.txt
+#
+#
+#7 Input\bde_Quartic_AP.txt
+#8 Input\bbde_Quartic_AP.txt
+#9 Input\sde_Quartic_AP.txt
+#10 Input\my_sde_Quartic_AP.txt
+#11 Input\spde_Quartic_AP.txt
+#12 Input\jde_Quartic_AP.txt
+#
+#
+#7 Input\bde_F8_AP.txt
+#8 Input\bbde_F8_AP.txt
+#9 Input\sde_F8_AP.txt
+#10 Input\my_sde_F8_AP.txt
+#11 Input\spde_F8_AP.txt
+#12 Input\jde_F8_AP.txt
+#
+#
+#7 Input\bde_Rastrigin_AP.txt
+#8 Input\bbde_Rastrigin_AP.txt
+#9 Input\sde_Rastrigin_AP.txt
+#10 Input\my_sde_Rastrigin_AP.txt
+#11 Input\spde_Rastrigin_AP.txt
+#12 Input\jde_Rastrigin_AP.txt
+#
+#
+#7 Input\bde_AckeyF1_AP.txt
+#8 Input\bbde_AckeyF1_AP.txt
+#9 Input\sde_AckeyF1_AP.txt
+#10 Input\my_sde_AckeyF1_AP.txt
+#11 Input\spde_AckeyF1_AP.txt
+#12 Input\jde_AckeyF1_AP.txt
+#
+#
+#7 Input\bde_Griewank_AP.txt
+#8 Input\bbde_Griewank_AP.txt
+#9 Input\sde_Griewank_AP.txt
+#10 Input\my_sde_Griewank_AP.txt
+#11 Input\spde_Griewank_AP.txt
+#12 Input\jde_Griewank_AP.txt
+#
+#
+#7 Input\bde_F12_AP.txt
+#8 Input\bbde_F12_AP.txt
+#9 Input\sde_F12_AP.txt
+#10 Input\my_sde_F12_AP.txt
+#11 Input\spde_F12_AP.txt
+#12 Input\jde_F12_AP.txt
+#
+#7 Input\bde_F13_AP.txt
+#8 Input\bbde_F13_AP.txt
+#9 Input\sde_F13_AP.txt
+#10 Input\my_sde_F13_AP.txt
+#11 Input\spde_F13_AP.txt
+#12 Input\jde_F13_AP.txt
+#
+#
+#7 Input\bde_CamelBack_AP.txt
+#8 Input\bbde_CamelBack_AP.txt
+#9 Input\sde_CamelBack_AP.txt
+#10 Input\my_sde_CamelBack_AP.txt
+#11 Input\spde_CamelBack_AP.txt
+#12 Input\jde_CamelBack_AP.txt
+#
+#7 Input\bde_F14_AP.txt
+#8 Input\bbde_F14_AP.txt
+#9 Input\sde_F14_AP.txt
+#10 Input\my_sde_F14_AP.txt
+#11 Input\spde_F14_AP.txt
+#12 Input\jde_F14_AP.txt
+#
+#7 Input\bde_F15_AP.txt
+#8 Input\bbde_F15_AP.txt
+#9 Input\sde_F15_AP.txt
+#10 Input\my_sde_F15_AP.txt
+#11 Input\spde_F15_AP.txt
+#12 Input\jde_F15_AP.txt
+
+## hybrid DE/EDA algorithm comparison experiment
+#
+#16 Input\ede_rosenbrock_hb.txt   
+#17 Input\de-eda_rosenbrock_hb.txt
+#18 Input\dmde_rosenbrock_hb.txt  
+#19 Input\eda_rosenbrock_hb.txt   
+#
+#16 Input\ede_foxhole_hb.txt  
+#17 Input\de-eda_foxhole_hb.txt 
+#18 Input\dmde_foxhole_hb.txt
+#19 Input\eda_foxhole_hb.txt
+#
+#16 Input\ede_langerman_hb.txt
+#17 Input\de-eda_langerman_hb.txt
+#18 Input\dmde_langerman_hb.txt  
+#19 Input\eda_langerman_hb.txt
+#
+#16 Input\ede_michaelwicz_hb.txt
+#17 Input\de-eda_michaelwicz_hb.txt
+#18 Input\dmde_michaelwicz_hb.txt  
+#19 Input\eda_michaelwicz_hb.txt
+
+#12 Input\jde_Griewank_AP.txt
+#20 Input\nsde_Griewank_AP.txt
+
+#12 Input\jde_AckeyF1_AP.txt
+#20 Input\nsde_AckeyF1_AP.txt
+
+12 Input\jde_Rastrigin_AP.txt
+20 Input\nsde_Rastrigin_AP.txt
+
+#21 Input\mosade_zdt3.txt
+#22 Input\mode_zdt3.txt

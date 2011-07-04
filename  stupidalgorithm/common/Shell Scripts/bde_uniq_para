@@ -1,0 +1,5 @@
+# crossover probability fixed value
+pr_val = 0.9
+
+# amplification factor F fixed value
+f_val = 0.5

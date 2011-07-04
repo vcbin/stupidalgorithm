@@ -1,0 +1,63 @@
+# specific Objective Function/test problem
+# 	1 -> sphere function
+# 	2 -> griewank function
+#	  3 -> rastrigin function
+#	  4 -> ackeyf1 function
+# 	5 -> f5 function
+# 	6 -> rosenbrock function
+# 	7 -> step function
+# 	8 -> quartic function with noise
+func_type = 15
+
+# run/trial number
+run = 30
+
+# population size
+pop_size = 50
+
+# stop criterion type
+# 1 -> stop on max GENERATION number
+# 2 -> stop on max EVALUATION number
+# 3 -> stop on max STAGNATION number
+# 4 -> stop on specified delta_y(best_so_far-optimum)
+stop_type = 2
+
+# stop criterion related value:
+# stop criterion type = 1 -> max GENERATION number
+# stop criterion type = 2 -> max EVALUATION number
+# stop criterion type = 3 -> max STAGNATION number
+# stop criterion type = 4 -> delta_y <= stop_threshold
+stop_threshold = 50000
+
+# number of real variable/ dimensionality of test problem
+dimension = 30
+
+# lower bound of ALL variables
+val_lower_bound = -100.0
+
+# upper bound of ALL variables
+val_upper_bound = 100.0
+
+# initialization lower bound of ALL variables
+ini_lower_bound = -100.0
+
+# initialization upper bound of ALL variables
+ini_upper_bound = 100.0
+
+# mean of crossover probability normal distribution
+pr_mean = 0.5
+
+# sigma of crossover probability normal distribution
+pr_sigma = 0.15
+
+# mean of control parameter F(scaling factor) initial value normal distribution
+ini_f_mean = 0.5
+
+# sigma of control parameter F(scaling factor ) initial value normal distribution
+ini_f_sigma = 0.15
+
+# mean of control parameter F(scaling factor) value normal distribution
+f_mean = 0.0
+
+# sigma of control parameter F(scaling factor ) value normal distribution
+f_sigma = 0.5
