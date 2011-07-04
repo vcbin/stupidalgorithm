@@ -88,11 +88,17 @@ const char* algo_name[]=
 mutex para_stat_file_mutex;// para stat file write mutex
 mutex io_mutex;// cout mutex
 
+#ifdef WIN32
+	const string out_dir="Output\\";
+#else
+	const string out_dir="Output//";
+#endif
+
 // global common stat files for all algorithm
-ofstream run_stat_file("Output//run_stat.txt");
-ofstream para_stat_filelist("Output//para_stat_filelist.txt");
-ofstream com_filelist("Output//common_filelist.txt");
-ofstream para_stat_all_bst_val_filelist("Output//para_stat_all_bst_val_filelist.txt");
+ofstream run_stat_file((out_dir+"run_stat.txt").c_str());
+ofstream para_stat_filelist((out_dir+"para_stat_filelist.txt").c_str());
+ofstream com_filelist((out_dir+"common_filelist.txt").c_str());
+ofstream para_stat_all_bst_val_filelist((out_dir+"para_stat_all_bst_val_filelist.txt").c_str());
 
 // extern const char* algo_name[];
 
@@ -123,9 +129,9 @@ string scheduler::gen_stat_file_name(string str_common,string str_seq_desc,strin
 {
 	string str_filename;
 	if ( !str_seq_desc.empty() )
-		str_filename="Output//"+str_common+"_"+str_seq_desc+"_"+str_append; 
+		str_filename=out_dir+str_common+"_"+str_seq_desc+"_"+str_append;
 	else
-		str_filename="Output//"+str_common+"_"+str_append; 
+		str_filename=out_dir+str_common+"_"+str_append;
 	return str_filename;
 }
 
@@ -204,7 +210,7 @@ void scheduler::algo_spec_output(int func_type,int algo_type,const shared_ptr<al
 {
 	if ( is_pso(algo_type) )
 	{
-		static ofstream gen_vel_div_filelist("Output//gen_vel_div_filelist.txt");
+		static ofstream gen_vel_div_filelist((out_dir+"gen_vel_div_filelist.txt").c_str());
 		shared_ptr<pso_alg> pPSO_alg=dynamic_pointer_cast<pso_alg>(pAlg);// downcast
 		string filename=gen_avg_vel_div_file_name(str_common,str_seq_desc);
 		pPSO_alg->set_gen_vel_div_file_name(filename);
@@ -214,14 +220,14 @@ void scheduler::algo_spec_output(int func_type,int algo_type,const shared_ptr<al
 			shared_ptr<mpso_alg> pMPSO_alg=dynamic_pointer_cast<mpso_alg>(pAlg);// downcast
 			filename=gen_avg_attr_file_name(str_common,str_seq_desc);
 			pMPSO_alg->set_gen_avg_attra_file_name(filename);
-			ofstream gen_attr_perc_file("Output//mpso_gen_attr_filename.txt");
+			ofstream gen_attr_perc_file((out_dir+"mpso_gen_attr_filename.txt").c_str());
 			print_file_name(gen_attr_perc_file,func_type,algo_type,filename);
 		}
 	}
 	if ( is_de(algo_type) || is_hybrid_de(algo_type) || is_mode(algo_type) || is_nsde(algo_type) )
 	{
-		static ofstream gen_f_filelist("Output//gen_f_filelist.txt");
-		static ofstream gen_pr_filelist("Output//gen_pr_filelist.txt");
+		static ofstream gen_f_filelist((out_dir+"gen_f_filelist.txt").c_str());
+		static ofstream gen_pr_filelist((out_dir+"gen_pr_filelist.txt").c_str());
 		shared_ptr<de_alg> pDE_alg=dynamic_pointer_cast<de_alg>(pAlg);// downcast
 		string filename=gen_avg_f_file_name(str_common,str_seq_desc);
 		pDE_alg->set_gen_avg_f_file_name(filename);
@@ -234,13 +240,13 @@ void scheduler::algo_spec_output(int func_type,int algo_type,const shared_ptr<al
 			shared_ptr<nsde_alg> pnsde_alg=dynamic_pointer_cast<nsde_alg>(pAlg);// downcast
 			filename=gen_avg_bi_norm_stat_file_name(str_common,str_seq_desc);
 			pnsde_alg->set_gen_avg_bi_norm_stat_file_name(filename);
-			ofstream gen_stat_file("Output//nsde_gen_bi_norm_stat_filename.txt");
+			ofstream gen_stat_file((out_dir+"nsde_gen_bi_norm_stat_filename.txt").c_str());
 			print_file_name(gen_stat_file,func_type,algo_type,filename);
 		}
 	}
 	if ( is_ep(algo_type) )
 	{
-		static ofstream gen_eta_filelist("Output//gen_eta_filelist.txt");
+		static ofstream gen_eta_filelist((out_dir+"gen_eta_filelist.txt").c_str());
 		shared_ptr<fep_alg> pFEP_alg=dynamic_pointer_cast<fep_alg>(pAlg);// downcast
 		string filename=gen_avg_eta_file_name(str_common,str_seq_desc);
 		pFEP_alg->set_gen_eta_file_name(filename);
