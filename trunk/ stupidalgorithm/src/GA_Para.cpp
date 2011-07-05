@@ -1,4 +1,4 @@
-#include "GA_Para.h"
+#include "ga_para.h"
 
 using namespace boost;
 using namespace boost::program_options;

@@ -1,9 +1,9 @@
 #define _USE_MATH_DEFINES // for math constant eg. pi,e... 
 #include <cmath>
 
-#include "FuncDef.h"
-#include "Rand_Val.h"
-#include "Algo_DataStruct.h"
+#include "funcdef.h"
+#include "rand_val.h"
+#include "algo_datastruct.h"
 
 #include <fstream>
 #include <sstream>

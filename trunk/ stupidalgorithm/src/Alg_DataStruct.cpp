@@ -6,7 +6,7 @@
 //#include <boost/type.hpp>
 
 #include <boost/random.hpp>
-#include "Algo_DataStruct.h"
+#include "algo_datastruct.h"
 
 using std::vector;
 using std::stringstream;

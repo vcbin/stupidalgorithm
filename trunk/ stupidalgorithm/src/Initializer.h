@@ -1,8 +1,8 @@
 #ifndef STUPIDALGO_INITIALIZER
 #define STUPIDALGO_INITIALIZER
 
-#include "Rand_Val.h"
-#include "Algo_DataStruct.h"
+#include "rand_val.h"
+#include "algo_datastruct.h"
 
 class initializer
 {

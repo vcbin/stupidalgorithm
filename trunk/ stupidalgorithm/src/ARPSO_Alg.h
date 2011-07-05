@@ -1,7 +1,7 @@
 #ifndef STUPIDALGO_ARPSO_ALGORITHM
 #define STUPIDALGO_ARPSO_ALGORITHM
 
-#include "PSO_Alg.h"
+#include "pso_alg.h"
 
 namespace pso
 {

@@ -1,4 +1,4 @@
-#include "MPSO_Alg.h"
+#include "mpso_alg.h"
 
 using std::cout;
 using std::endl;

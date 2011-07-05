@@ -1,7 +1,7 @@
 #ifndef STUPIDALGO_MOP_PUBLIC_INTERFACE
 #define STUPIDALGO_MOP_PUBLIC_INTERFACE
 
-#include "Algo_DataStruct.h"
+#include "algo_datastruct.h"
 //#include "plot.h"
 #include <list>
 #include <boost/shared_array.hpp>

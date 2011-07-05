@@ -1,8 +1,8 @@
 #ifndef STUPIDALGO_MOP_MOSADE
 #define STUPIDALGO_MOP_MOSADE
 
-#include "DE_Alg.h"
-#include "MOP_Common.h"
+#include "de_alg.h"
+#include "mop_common.h"
 
 namespace de
 {

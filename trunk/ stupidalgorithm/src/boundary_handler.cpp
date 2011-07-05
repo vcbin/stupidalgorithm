@@ -1,6 +1,6 @@
-#include "Rand_Val.h"
+#include "rand_val.h"
 
-#include "Boundary Handler.h"
+#include "boundary_handler.h"
 
 using boost::uniform_01;
 using boost::mt19937;

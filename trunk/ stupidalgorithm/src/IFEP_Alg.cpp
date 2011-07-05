@@ -1,4 +1,4 @@
-#include "IFEP_Alg.h"
+#include "ifep_alg.h"
 
 using std::rand;
 using std::vector;

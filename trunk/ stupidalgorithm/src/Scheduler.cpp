@@ -11,14 +11,14 @@
 
 #include <ctime>
 
-#include "All_Para.h"
-#include "All_Alg.h"
-#include "Batch_Conf.h"
-#include "Alloc_Obj.h"
-#include "Output_Base.h"
-#include "Rand_Val.h"
+#include "all_para.h"
+#include "all_alg.h"
+#include "batch_conf.h"
+#include "alloc_obj.h"
+#include "output_base.h"
+#include "rand_val.h"
 
-#include "Scheduler.h"
+#include "scheduler.h"
 
 using namespace pso;
 using namespace pso::mpso;

@@ -4,8 +4,8 @@
 #include <boost/lexical_cast.hpp>
 #include <boost/algorithm/string.hpp>
 
-#include "Batch_Conf.h"
-#include "Algo_DataStruct.h"
+#include "batch_conf.h"
+#include "algo_datastruct.h"
 
 using std::ifstream;
 using std::string;

@@ -6,12 +6,12 @@
 #include <boost/thread/mutex.hpp>
 #include <boost/timer.hpp>
 
-#include "FuncDef.h"
-#include "Para_Base.h"
-#include "Initializer.h"
-#include "Problem_Base.h"
-#include "Output_Base.h"
-#include "Alg_Base.h"
+#include "funcdef.h"
+#include "para_base.h"
+#include "initializer.h"
+#include "problem_base.h"
+#include "output_base.h"
+#include "alg_base.h"
 #include "cmdline_para_type.h"
 
 using boost::lock_guard;

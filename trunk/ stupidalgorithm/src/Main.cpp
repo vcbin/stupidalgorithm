@@ -1,7 +1,7 @@
 #include <iostream>
 #include <boost/progress.hpp>
 
-#include "Scheduler.h"
+#include "scheduler.h"
 
 using namespace boost::program_options;
 

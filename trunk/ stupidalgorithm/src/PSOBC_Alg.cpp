@@ -1,6 +1,6 @@
 #include <boost/random/uniform_int.hpp>
 
-#include "PSOBC_Alg.h"
+#include "psobc_alg.h"
 
 using boost::timer;
 // using boost::progress_display;

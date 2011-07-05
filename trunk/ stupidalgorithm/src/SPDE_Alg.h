@@ -1,7 +1,7 @@
 #ifndef STUPIDALGO_SP_DIFFERENTIAL_EVOLUTION_ALGORITHM 
 #define STUPIDALGO_SP_DIFFERENTIAL_EVOLUTION_ALGORITHM
 
-#include "BBDE_Alg.h"
+#include "bbde_alg.h"
 
 namespace de
 {

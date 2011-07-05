@@ -5,9 +5,9 @@
 #include <boost/timer.hpp>
 #include <boost/shared_ptr.hpp>
 
-#include "Com_Alg.h"
-#include "EDA_Para.h"
-#include "Algo_DataStruct.h"
+#include "com_alg.h"
+#include "eda_para.h"
+#include "algo_datastruct.h"
 
 namespace eda
 {

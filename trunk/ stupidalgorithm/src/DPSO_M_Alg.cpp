@@ -1,4 +1,4 @@
-#include "DPSO_M_Alg.h"
+#include "dpso_m_alg.h"
 
 namespace pso
 {

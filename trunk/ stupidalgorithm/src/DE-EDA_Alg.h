@@ -1,7 +1,7 @@
 #ifndef STUPIDALGO_HYBRID_DIFFERENTIAL_EVOLUTION_ALGORITHM
 #define STUPIDALGO_HYBRID_DIFFERENTIAL_EVOLUTION_ALGORITHM
 
-#include "DE_Alg.h"
+#include "de_alg.h"
 
 namespace de
 {

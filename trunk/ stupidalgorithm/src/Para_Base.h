@@ -12,7 +12,7 @@
 #include <sstream> // operator<< definition
 #include <iostream>
 
-#include "Algo_DataStruct.h"
+#include "algo_datastruct.h"
 #include "cmdline_para_type.h"
 
 namespace po = boost::program_options;

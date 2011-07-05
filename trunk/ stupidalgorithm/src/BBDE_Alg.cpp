@@ -1,6 +1,6 @@
-#include "BBDE_Alg.h"
-#include "Initializer.h"
-#include "Rand_Val.h"
+#include "bbde_alg.h"
+#include "initializer.h"
+#include "rand_val.h"
 
 using std::vector;
 using std::cout;

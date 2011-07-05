@@ -4,9 +4,9 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/thread/mutex.hpp>
 
-#include "FuncDef.h"
-#include "Para_Base.h"
-#include "Algo_DataStruct.h"
+#include "funcdef.h"
+#include "para_base.h"
+#include "algo_datastruct.h"
 
 using namespace benchmark;
 

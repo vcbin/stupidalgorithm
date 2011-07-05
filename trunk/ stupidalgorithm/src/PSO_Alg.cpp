@@ -1,7 +1,7 @@
 //#include <boost/progress.hpp>
 #include <boost/timer.hpp>
 
-#include "PSO_Alg.h"
+#include "pso_alg.h"
 
 using std::vector;
 using std::cout;

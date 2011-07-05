@@ -5,8 +5,10 @@ Requirements:
 		download and install guide:http://threadpool.sourceforge.net/ ,OR simply download the necessary threadpool source code from our project site:http://code.google.com/p/stupidalgorithm/downloads/detail?name=threadpool-0_2_5-src.zip&can=2&q=
 
 testing environment:
-	Linux:Ubuntu 11.04+Eclipse CDT 8.0+boost 1.44+threadpool 0.2.5
-	Windows:Win7+Visual Studio 2010 SP1+boost 1.44+threadpool 0.2.5
+	Linux:
+	Ubuntu 11.04+Eclipse CDT 8.0+boost 1.44+threadpool 0.2.5,CDT project files under 			linux_specific/CDT_Project directory.
+	Windows:
+	Win7+Visual Studio 2010 SP1+boost 1.44+threadpool 0.2.5,VC2010 project files under win_specific/VS2010 directory.
 
 usage:
 	type 'stupidalgorithm --help' in your command-line console for detail

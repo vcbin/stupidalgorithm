@@ -1,7 +1,7 @@
 #include <fstream>
 #include <iostream>
 
-#include "PSO_Para.h"
+#include "pso_para.h"
 
 using namespace boost;
 using namespace boost::program_options;

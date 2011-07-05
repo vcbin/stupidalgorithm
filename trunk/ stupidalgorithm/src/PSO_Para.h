@@ -1,7 +1,7 @@
 #ifndef STUPIDALGO_SOP_ALL_PARAMETERS
 #define STUPIDALGO_SOP_ALL_PARAMETERS
 
-#include "Para_Base.h"
+#include "para_base.h"
 
 namespace pso
 {
