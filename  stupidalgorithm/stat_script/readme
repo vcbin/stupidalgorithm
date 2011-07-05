@@ -1,0 +1,5 @@
+Open all the files in this directory with Matlab
+plot_algo_comp_histogram.m:
+	Displaying histograms of all the algorithm(s)/parameter-combinations(if any) 	comparison result under the same test function and write thems to image files.
+stat_and_output_res.m:
+	Showing the best algorithm(s)/parameter-combinations(if any) under the same test function verified by two-tailed t-test and write thems to 'algo_comp_res.txt' and 'para_comp_res.txt' respectively.
