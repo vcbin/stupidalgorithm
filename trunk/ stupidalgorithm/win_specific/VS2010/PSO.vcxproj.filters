@@ -45,9 +45,6 @@
     <ClInclude Include="DPSO_M_Alg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Boundary Handler.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Para_Base.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -147,6 +144,9 @@
     <ClInclude Include="NSDE_Alg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="boundary_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -177,9 +177,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DPSO_M_Alg.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Boundary Handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Alg_DataStruct.cpp">
@@ -267,6 +264,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Rand_Val.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="boundary_handler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

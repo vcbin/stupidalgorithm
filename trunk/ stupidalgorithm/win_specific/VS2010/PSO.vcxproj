@@ -78,13 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="boundary_handler.h" />
     <ClInclude Include="Com_Alg.h" />
     <ClInclude Include="Alg_Base.h" />
     <ClInclude Include="Alloc_Obj.h" />
     <ClInclude Include="All_Alg.h" />
     <ClInclude Include="All_Para.h" />
     <ClInclude Include="Batch_Conf.h" />
-    <ClInclude Include="Boundary Handler.h" />
     <ClInclude Include="DE-EDA_Alg.h" />
     <ClInclude Include="DE_Alg.h" />
     <ClInclude Include="DE_Para.h" />
@@ -126,7 +126,7 @@
   <ItemGroup>
     <ClCompile Include="Alloc_Obj.cpp" />
     <ClCompile Include="Batch_Conf.cpp" />
-    <ClCompile Include="Boundary Handler.cpp" />
+    <ClCompile Include="boundary_handler.cpp" />
     <ClCompile Include="DE-EDA_Alg.cpp" />
     <ClCompile Include="DE_Alg.cpp" />
     <ClCompile Include="DE_Para.cpp" />
