@@ -1,5 +1,5 @@
-#include "JDE.h"
-#include "Rand_Val.h"
+#include "jde.h"
+#include "rand_val.h"
 
 using std::vector;
 using std::cout;

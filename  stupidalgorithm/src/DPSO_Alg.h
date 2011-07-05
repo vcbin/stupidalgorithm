@@ -1,9 +1,9 @@
 #ifndef STUPIDALGO_DPSO_ALGORITHM
 #define STUPIDALGO_DPSO_ALGORITHM
 
-#include "PSO_Alg.h"
-#include "Algo_DataStruct.h"
-#include "Output_Base.h"
+#include "pso_alg.h"
+#include "algo_datastruct.h"
+#include "output_base.h"
 
 namespace pso
 {

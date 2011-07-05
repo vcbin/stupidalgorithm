@@ -1,4 +1,4 @@
-#include "Rand_Val.h"
+#include "rand_val.h"
 
 using boost::normal_distribution;
 using boost::mt19937;

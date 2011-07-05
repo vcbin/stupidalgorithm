@@ -5,8 +5,8 @@
 #include <boost/timer.hpp>
 #include <boost/shared_ptr.hpp>
 
-#include "DE_Alg.h"
-#include "Algo_DataStruct.h"
+#include "de_alg.h"
+#include "algo_datastruct.h"
 
 namespace de
 {

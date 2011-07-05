@@ -4,7 +4,7 @@
 #include <functional>
 #include <boost/array.hpp>
 
-#include "Algo_DataStruct.h"
+#include "algo_datastruct.h"
 
 namespace benchmark
 {

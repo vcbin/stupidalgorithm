@@ -1,7 +1,7 @@
-#include "NSDE_Alg.h"
+#include "nsde_alg.h"
 
-#include "SDE_Alg.h"
-#include "Rand_Val.h"
+#include "sde_alg.h"
+#include "rand_val.h"
 
 using std::vector;
 using std::cout;

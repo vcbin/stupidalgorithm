@@ -1,4 +1,4 @@
-#include "Output_Base.h"
+#include "output_base.h"
 #include "cmdline_para_type.h"
 
 #include <iterator>
@@ -259,7 +259,7 @@ void print_algo_stat_title(ostream &os,bool max_gen_set)
 
 void print_para_stat_title(ostream &os,string para_var_list,string para_num_str,bool max_gen_set)
 {
-	os<<para_var_list
+	os<<para_var_list.c_str()
 		<<"\t"
 		<<"best"
 		<<"\t"
@@ -286,7 +286,7 @@ void print_para_stat_title(ostream &os,string para_var_list,string para_num_str,
 		os<<"\t"
 		<<"avg_gen";
 	os<<"\n"
-		<<para_num_str;
+		<<para_num_str.c_str();
 }
 
 void print_common_filelist_title(ostream &os)

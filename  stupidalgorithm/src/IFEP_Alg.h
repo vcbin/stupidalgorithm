@@ -1,9 +1,9 @@
 #ifndef STUPIDALGO_IMPROVED_FAST_EVOLUTIONARY_PROGRAMMING
 #define STUPIDALGO_IMPROVED_FAST_EVOLUTIONARY_PROGRAMMING
 
-#include "Com_Alg.h"
-#include "FEP_Alg.h"
-#include "EP_Para.h"
+#include "com_alg.h"
+#include "fep_alg.h"
+#include "ep_para.h"
 
 namespace ep
 {

@@ -5,10 +5,10 @@
 #include <boost/timer.hpp>
 #include <boost/shared_ptr.hpp>
 
-#include "Com_Alg.h"
-#include "GA_Para.h"
-#include "DE_Para.h"
-#include "Algo_DataStruct.h"
+#include "com_alg.h"
+#include "ga_para.h"
+#include "de_para.h"
+#include "algo_datastruct.h"
 
 namespace ga
 {

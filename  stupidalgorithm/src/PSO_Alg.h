@@ -8,11 +8,11 @@
 
 #include <fstream>
 
-#include "Rand_Val.h" // declaration of necessary boost::random header
+#include "rand_val.h" // declaration of necessary boost::random header
 
-#include "PSO_Para.h"
-#include "Com_Alg.h"
-#include "Boundary Handler.h"
+#include "pso_para.h"
+#include "com_alg.h"
+#include "boundary_handler.h"
 
 using namespace boundary_condition;
 

@@ -1,8 +1,8 @@
 #ifndef STUPIDALGO_FAST_EVOLUTIONARY_PROGRAMMING
 #define STUPIDALGO_FAST_EVOLUTIONARY_PROGRAMMING
 
-#include "Com_Alg.h"
-#include "EP_Para.h"
+#include "com_alg.h"
+#include "ep_para.h"
 
 extern boost::mt19937 gen;
 

@@ -1,6 +1,6 @@
 #include <boost/random/uniform_int.hpp>
 
-#include "DPSO_Alg.h"
+#include "dpso_alg.h"
 
 using std::vector;
 using std::cout;

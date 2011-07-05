@@ -1,4 +1,4 @@
-#include "Initializer.h"
+#include "initializer.h"
 
 extern boost::mt19937 gen;
 

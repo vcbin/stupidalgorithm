@@ -4,9 +4,9 @@
 #include <iostream>
 #include <sstream>
 
-#include "FuncDef.h"
-#include "Com_Alg.h"
-#include "Para_Base.h"
+#include "funcdef.h"
+#include "com_alg.h"
+#include "para_base.h"
 
 class scheduler
 {

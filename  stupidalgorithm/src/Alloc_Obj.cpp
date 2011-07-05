@@ -1,6 +1,6 @@
-#include "Alloc_Obj.h"
-#include "All_Alg.h"
-#include "All_Para.h"
+#include "alloc_obj.h"
+#include "all_alg.h"
+#include "all_para.h"
 #include "cmdline_para_type.h"
 
 using namespace pso;

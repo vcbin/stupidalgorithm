@@ -1,8 +1,8 @@
 #ifndef STUPIDALGO_SOP_PROBLEM_INTERFACE
 #define STUPIDALGO_SOP_PROBLEM_INTERFACE
 
-#include "Algo_DataStruct.h"
-#include "FuncDef.h"
+#include "algo_datastruct.h"
+#include "funcdef.h"
 
 using namespace benchmark;
 

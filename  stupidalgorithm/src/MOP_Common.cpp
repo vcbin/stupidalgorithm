@@ -4,8 +4,8 @@
 
 #include <cmath>
 
-#include "MOP_Common.h"
-#include "Rand_Val.h"
+#include "mop_common.h"
+#include "rand_val.h"
 #include "cmdline_para_type.h"
 
 //#include <boost/lambda/lambda.hpp>

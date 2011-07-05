@@ -1,4 +1,4 @@
-#include "EDA_Para.h"
+#include "eda_para.h"
 
 using namespace boost;
 using namespace boost::program_options;

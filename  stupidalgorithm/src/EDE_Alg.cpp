@@ -1,4 +1,4 @@
-#include "EDE_Alg.h"
+#include "ede_alg.h"
 
 using std::partial_sort;
 

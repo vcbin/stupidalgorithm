@@ -1,9 +1,9 @@
 #ifndef STUPIDALGO_SOP_OUTPUT_INTERFACE
 #define STUPIDALGO_SOP_OUTPUT_INTERFACE
 
-#include <iostream>
+#include <ostream>
 #include <boost/shared_ptr.hpp>
-#include "Algo_DataStruct.h"
+#include "algo_datastruct.h"
 
 class output_base
 {
@@ -28,6 +28,6 @@ protected:
 void print_algo_stat_title(std::ostream &os,bool max_gen_set);
 void print_para_stat_title(std::ostream &os,std::string para_var_list,std::string para_num_str,bool max_gen_set);
 void print_common_filelist_title(std::ostream &os);
-inline void print_file_name( std::ostream &os,int func_type,int algo_type,std::string file_name ) { os<<func_type<<"\t"<<algo_type<<"\t"<<file_name<<"\n"; }
+inline void print_file_name( std::ostream &os,int func_type,int algo_type,std::string file_name ) { os<<func_type<<"\t"<<algo_type<<"\t"<<file_name.c_str()<<"\n"; }
 
 #endif

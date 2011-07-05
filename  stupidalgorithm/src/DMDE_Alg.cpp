@@ -1,4 +1,4 @@
-#include "DMDE_Alg.h"
+#include "dmde_alg.h"
 
 using std::partial_sort;
 

@@ -1,6 +1,6 @@
-#include "SPDE_Alg.h"
+#include "spde_alg.h"
 
-#include "Rand_Val.h"
+#include "rand_val.h"
 
 using std::vector;
 using std::cout;

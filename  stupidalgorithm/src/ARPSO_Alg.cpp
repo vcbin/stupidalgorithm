@@ -1,4 +1,4 @@
-#include "ARPSO_Alg.h"
+#include "arpso_alg.h"
 
 using boost::timer;
 //// using boost::progress_display;

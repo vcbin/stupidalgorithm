@@ -1,6 +1,6 @@
-#include "MODE_Alg.h"
+#include "mode_alg.h"
 
-#include "MOSADE_Alg.h"
+#include "mosade_alg.h"
 #include <cassert>
 
 using std::vector;

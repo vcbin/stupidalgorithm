@@ -1,6 +1,6 @@
-﻿#include "GA_Alg.h"
-#include "Initializer.h" 
-#include "Rand_Val.h" 
+﻿#include "ga_alg.h"
+#include "initializer.h" 
+#include "rand_val.h" 
 
 using boost::timer; 
 using boost::shared_ptr;
