@@ -1,0 +1,72 @@
+In file included from all_alg.h:4,
+                 from alloc_obj.cpp:2:
+pso_alg.h: In constructor ‘pso::pso_alg::pso_alg(std::string)’:
+pso_alg.h:28: error: class ‘pso::pso_alg’ does not have any field named ‘com_alg’
+pso_alg.h:28: error: no matching function for call to ‘com_alg<pso::pso_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = pso::pso_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = pso::pso_para]
+com_alg.h:24: note:                 com_alg<pso::pso_para>::com_alg(const com_alg<pso::pso_para>&)
+pso_alg.h: In constructor ‘pso::pso_alg::pso_alg(boost::shared_ptr<pso::pso_para>)’:
+pso_alg.h:30: error: class ‘pso::pso_alg’ does not have any field named ‘com_alg’
+pso_alg.h:30: error: no matching function for call to ‘com_alg<pso::pso_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = pso::pso_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = pso::pso_para]
+com_alg.h:24: note:                 com_alg<pso::pso_para>::com_alg(const com_alg<pso::pso_para>&)
+In file included from all_alg.h:10,
+                 from alloc_obj.cpp:2:
+de_alg.h: In constructor ‘de::de_alg::de_alg(std::string)’:
+de_alg.h:19: error: class ‘de::de_alg’ does not have any field named ‘com_alg’
+de_alg.h:19: error: no matching function for call to ‘com_alg<de::de_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = de::de_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = de::de_para]
+com_alg.h:24: note:                 com_alg<de::de_para>::com_alg(const com_alg<de::de_para>&)
+de_alg.h: In constructor ‘de::de_alg::de_alg(boost::shared_ptr<de::de_para>)’:
+de_alg.h:21: error: class ‘de::de_alg’ does not have any field named ‘com_alg’
+de_alg.h:21: error: no matching function for call to ‘com_alg<de::de_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = de::de_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = de::de_para]
+com_alg.h:24: note:                 com_alg<de::de_para>::com_alg(const com_alg<de::de_para>&)
+In file included from all_alg.h:16,
+                 from alloc_obj.cpp:2:
+fep_alg.h: In constructor ‘ep::fep::fep_alg::fep_alg(std::string)’:
+fep_alg.h:80: error: class ‘ep::fep::fep_alg’ does not have any field named ‘com_alg’
+fep_alg.h:80: error: no matching function for call to ‘com_alg<ep::ep_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = ep::ep_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = ep::ep_para]
+com_alg.h:24: note:                 com_alg<ep::ep_para>::com_alg(const com_alg<ep::ep_para>&)
+fep_alg.h: In constructor ‘ep::fep::fep_alg::fep_alg(boost::shared_ptr<ep::ep_para>)’:
+fep_alg.h:82: error: class ‘ep::fep::fep_alg’ does not have any field named ‘com_alg’
+fep_alg.h:82: error: no matching function for call to ‘com_alg<ep::ep_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = ep::ep_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = ep::ep_para]
+com_alg.h:24: note:                 com_alg<ep::ep_para>::com_alg(const com_alg<ep::ep_para>&)
+In file included from all_alg.h:18,
+                 from alloc_obj.cpp:2:
+ga_alg.h: In constructor ‘ga::dgea::dgea_alg::dgea_alg(std::string)’:
+ga_alg.h:22: error: class ‘ga::dgea::dgea_alg’ does not have any field named ‘com_alg’
+ga_alg.h:22: error: no matching function for call to ‘com_alg<ga::ga_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = ga::ga_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = ga::ga_para]
+com_alg.h:24: note:                 com_alg<ga::ga_para>::com_alg(const com_alg<ga::ga_para>&)
+ga_alg.h: In constructor ‘ga::dgea::dgea_alg::dgea_alg(boost::shared_ptr<ga::ga_para>)’:
+ga_alg.h:24: error: class ‘ga::dgea::dgea_alg’ does not have any field named ‘com_alg’
+ga_alg.h:24: error: no matching function for call to ‘com_alg<ga::ga_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = ga::ga_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = ga::ga_para]
+com_alg.h:24: note:                 com_alg<ga::ga_para>::com_alg(const com_alg<ga::ga_para>&)
+In file included from all_alg.h:20,
+                 from alloc_obj.cpp:2:
+eda_alg.h: In constructor ‘eda::eda_alg::eda_alg(std::string)’:
+eda_alg.h:19: error: class ‘eda::eda_alg’ does not have any field named ‘com_alg’
+eda_alg.h:19: error: no matching function for call to ‘com_alg<eda::eda_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = eda::eda_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = eda::eda_para]
+com_alg.h:24: note:                 com_alg<eda::eda_para>::com_alg(const com_alg<eda::eda_para>&)
+eda_alg.h: In constructor ‘eda::eda_alg::eda_alg(boost::shared_ptr<eda::eda_para>)’:
+eda_alg.h:21: error: class ‘eda::eda_alg’ does not have any field named ‘com_alg’
+eda_alg.h:21: error: no matching function for call to ‘com_alg<eda::eda_para>::com_alg()’
+com_alg.h:29: note: candidates are: com_alg<real_para>::com_alg(boost::shared_ptr<X>) [with real_para = eda::eda_para]
+com_alg.h:27: note:                 com_alg<real_para>::com_alg(std::string) [with real_para = eda::eda_para]
+com_alg.h:24: note:                 com_alg<eda::eda_para>::com_alg(const com_alg<eda::eda_para>&)
+make[1]: *** [alloc_obj.o] Error 1
+make: *** [all] Error 2
