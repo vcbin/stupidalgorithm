@@ -29,7 +29,7 @@ public:
 	  com_alg(boost::shared_ptr<real_para> ppara):// set algorithm parameters pointer directly
 	  m_ppara(ppara) {}
 	  // dtor
-	  virtual ~com_alg() {}
+	  virtual ~com_alg(){}
 
 	  void initialize()
 	  {

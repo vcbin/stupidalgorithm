@@ -31,7 +31,7 @@ namespace eda
 		{
 			cerr << e.what() 
 				<< " from option: " 
-				<< e.get_option_name() 
+				//<< e.get_option_name() 
 				<<" "
 				<<"in "
 				<<path
